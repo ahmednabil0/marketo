@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:marketo/veiw/screans/home.dart';
+import 'package:marketo/veiw/screans/splash_screen.dart';
 
 class AppRoutes {
   // ignore: body_might_complete_normally_nullable
@@ -8,6 +9,10 @@ class AppRoutes {
       case '/':
         return MaterialPageRoute(
           builder: (_) => const HomePage(),
+        );
+      case 'splash':
+        return MaterialPageRoute(
+          builder: (_) => const SplashScreen(),
         );
     }
   }
