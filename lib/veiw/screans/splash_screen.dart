@@ -1,9 +1,9 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:marketo/helper/constants/app_colors.dart';
-import 'package:marketo/veiw/screans/home.dart';
-import 'package:marketo/veiw/widgets/public_widgets/text.dart';
+import '../../helper/constants/app_colors.dart';
+import 'home.dart';
+import '../widgets/public_widgets/text.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});

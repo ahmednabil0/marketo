@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:marketo/helper/constants/app_colors.dart';
-import 'package:marketo/helper/lang/app_localization.dart';
-import 'package:marketo/veiw_model/text.dart';
 import 'package:provider/provider.dart';
+
+import '../../helper/constants/app_colors.dart';
+import '../../helper/lang/app_localization.dart';
+import '../../veiw_model/text.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

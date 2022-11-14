@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:marketo/helper/constants/app_colors.dart';
+
+import '../constants/app_colors.dart';
 
 ThemeData getThemeDate() {
   return ThemeData(

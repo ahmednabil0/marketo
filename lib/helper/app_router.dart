@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:marketo/veiw/screans/home.dart';
-import 'package:marketo/veiw/screans/splash_screen.dart';
+
+import '../veiw/screans/home.dart';
+import '../veiw/screans/splash_screen.dart';
 
 class AppRoutes {
   // ignore: body_might_complete_normally_nullable

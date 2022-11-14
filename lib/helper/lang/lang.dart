@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:marketo/helper/lang/app_localization.dart';
+
+import 'app_localization.dart';
 
 class AppLang {
   static List<Locale> suporttedLangs = const [Locale('en'), Locale('ar')];
