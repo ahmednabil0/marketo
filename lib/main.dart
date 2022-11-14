@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:marketo/helper/app_router.dart';
-import 'package:marketo/helper/lang/lang.dart';
-import 'package:marketo/helper/theme/app_theme.dart';
+import 'helper/app_router.dart';
+import 'helper/lang/lang.dart';
+import 'helper/theme/app_theme.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() {
