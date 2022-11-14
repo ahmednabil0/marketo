@@ -1,9 +1,10 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
 import '../../helper/constants/app_colors.dart';
-import 'home.dart';
 import '../widgets/public_widgets/text.dart';
+import 'auth/sign_in_veiw.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
@@ -27,7 +28,8 @@ class SplashScreen extends StatelessWidget {
                 animationDuration: const Duration(milliseconds: 1000),
                 splashIconSize: 1000.w,
                 backgroundColor: backgroundColor,
-                nextScreen: const HomePage(),
+                nextRoute: 'sign_in',
+                nextScreen: const SignInVeiw(),
               ),
             ),
             Padding(

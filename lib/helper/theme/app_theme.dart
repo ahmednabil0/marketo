@@ -6,18 +6,24 @@ import '../constants/app_colors.dart';
 ThemeData getThemeDate() {
   return ThemeData(
       inputDecorationTheme: InputDecorationTheme(
-        contentPadding: EdgeInsets.symmetric(horizontal: 10.w, vertical: 10.w),
-        fillColor: const Color(0xffF6F6F6),
+        contentPadding: EdgeInsets.symmetric(vertical: 15.h, horizontal: 2.w),
+        hintStyle: const TextStyle(
+          color: Color(0xffA6B0BD),
+        ),
+        fillColor: Colors.white,
         filled: true,
-        focusedBorder: OutlineInputBorder(
-            borderSide: const BorderSide(color: Colors.transparent),
-            borderRadius: BorderRadius.all(Radius.circular(10.w))),
         enabledBorder: OutlineInputBorder(
-            borderSide: const BorderSide(color: Colors.transparent),
-            borderRadius: BorderRadius.all(Radius.circular(10.w))),
-        errorBorder: OutlineInputBorder(
-            borderSide: const BorderSide(color: Colors.transparent),
-            borderRadius: BorderRadius.all(Radius.circular(10.w))),
+          borderRadius: BorderRadius.all(
+            Radius.circular(50.r),
+          ),
+          borderSide: const BorderSide(color: Colors.white),
+        ),
+        focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.all(
+            Radius.circular(50.r),
+          ),
+          borderSide: const BorderSide(color: Colors.white),
+        ),
       ),
       primaryColor: primaryColor,
       backgroundColor: backgroundColor,

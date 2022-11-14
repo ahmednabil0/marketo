@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const Color primaryColor = Color(0xffFE9D34);
+const Color primaryColor = Color.fromARGB(255, 236, 162, 83);
 const Color scondaryColor = Color(0xff102A68);
 const Color thridyColor = Color.fromARGB(255, 245, 114, 27);
 const Color backgroundColor = Color(0xffF8FAFF);
