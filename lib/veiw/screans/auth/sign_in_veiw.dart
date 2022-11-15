@@ -41,9 +41,10 @@ class SignInVeiw extends StatelessWidget {
             const HSizedBox(
               h: 0.05,
             ),
-            const AppButton(
+            AppButton(
               txt: 'SIGN IN',
               color: scondaryColor,
+              h: 50.h,
             ),
             const HSizedBox(
               h: 0.035,

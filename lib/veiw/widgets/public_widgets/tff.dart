@@ -35,9 +35,12 @@ class AppTFF extends StatelessWidget {
         controller: controller,
         decoration: InputDecoration(
             hintText: hint,
-            prefixIcon: Icon(
-              icon,
-              size: 25.w,
+            prefixIcon: Padding(
+              padding: EdgeInsets.symmetric(horizontal: 15.r),
+              child: Icon(
+                icon,
+                size: 25.w,
+              ),
             ),
             hintStyle: TextStyle(
                 fontSize: 15.sp,

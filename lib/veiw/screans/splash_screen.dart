@@ -17,10 +17,13 @@ class SplashScreen extends StatelessWidget {
           children: [
             Expanded(
               child: AnimatedSplashScreen(
-                splash: Image.asset(
-                  'assets/images/app_logo_img.png',
-                  width: 250.w,
-                  fit: BoxFit.contain,
+                splash: Hero(
+                  tag: 'app_logo',
+                  child: Image.asset(
+                    'assets/images/app_logo_img.png',
+                    width: 250.w,
+                    fit: BoxFit.contain,
+                  ),
                 ),
                 centered: true,
                 curve: Curves.easeInCirc,

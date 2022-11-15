@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "608203503079",
+    "project_id": "fruita-app",
+    "storage_bucket": "fruita-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608203503079:android:64643a2e834e25aeeaf942",
+        "android_client_info": {
+          "package_name": "com.example.marketo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608203503079-1c1mh452r5dlivskao9k77v9trrkv10m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.marketo",
+            "certificate_hash": "104491bbdad96508ff73e6bcb5a40e615716461b"
+          }
+        },
+        {
+          "client_id": "608203503079-e13st8rvnetm9e78hom2pg0k18i5bdtu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6vRmCa5KCQ8ClR9xn44kq44PJPZoKaWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608203503079-e13st8rvnetm9e78hom2pg0k18i5bdtu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

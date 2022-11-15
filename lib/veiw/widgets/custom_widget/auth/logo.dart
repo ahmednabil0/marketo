@@ -16,9 +16,13 @@ class AppLogoAuth extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.asset(
-            'assets/images/app_logo_img.png',
-            width: 100.w,
+          Hero(
+            tag: 'app_logo',
+            transitionOnUserGestures: true,
+            child: Image.asset(
+              'assets/images/app_logo_img.png',
+              width: 100.w,
+            ),
           ),
           Image.asset(
             'assets/images/app_logo_text.png',
