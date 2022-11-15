@@ -45,6 +45,7 @@ class SignInVeiw extends StatelessWidget {
               txt: 'SIGN IN',
               color: scondaryColor,
               h: 50.h,
+              onTap: () {},
             ),
             const HSizedBox(
               h: 0.035,
